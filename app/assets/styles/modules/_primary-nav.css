@@ -1,0 +1,17 @@
+.primary-nav {
+  position: relative;
+  text-align: center;
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+}
