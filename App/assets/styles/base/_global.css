@@ -14,4 +14,11 @@ img {
 
 a {
   color: $mainOrange;
+  text-decoration: none;
+}
+
+a:hover {
+  border: 1px solid $mainOrange;
+  padding: 5px;
+  transition: all .3s ease-in;
 }

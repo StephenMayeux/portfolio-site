@@ -16,14 +16,11 @@
   font-size: 1.3rem;
 
   a {
-    padding: 3px;
+    padding: 5px;
   }
 
   a:hover {
-    border: 1px solid $mainOrange;
     font-size: 1.45rem;
-    padding: 5px;
-    transition: all .3s ease-in;
   }
 
 }
