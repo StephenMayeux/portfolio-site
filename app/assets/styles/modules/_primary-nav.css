@@ -1,12 +1,23 @@
 .primary-nav {
-  
+
+  ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 5rem;
+    height: 10rem;
+    top: 15px;
+    left: 10px;
+  }
+
   li {
     list-style: none;
     max-width: 4.3em;
   }
 
   a {
-
+    
   }
 
 }

@@ -492,7 +492,7 @@ a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50rem;
   overflow: hidden;
 
 }
@@ -587,9 +587,38 @@ a:hover {
   }
 }
 
+.primary-nav ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 5rem;
+  height: 10rem;
+  top: 15px;
+  left: 10px;
+}
+
 .primary-nav li {
   list-style: none;
   max-width: 4.3em;
 }
 
 .primary-nav a {}
+
+.site-bio {
+  background-color: #d59541;
+  position: relative;
+  margin-top: 50rem;
+  height: 50rem;
+
+}
+
+.site-bio__image img {
+  border-radius: 175px;
+  height: 15rem;
+}

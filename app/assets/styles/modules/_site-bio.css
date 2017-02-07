@@ -1,0 +1,12 @@
+.site-bio {
+  background-color: $mainOrange;
+  position: relative;
+  margin-top: 50rem;
+  height: 50rem;
+
+  &__image img {
+    border-radius: 175px;
+    height: 15rem;
+  }
+
+}
