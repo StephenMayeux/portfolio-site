@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  text-align: center;
 }
 
 img {
@@ -21,4 +22,9 @@ a:hover {
   border: 1px solid $mainOrange;
   padding: 5px;
   transition: all .3s ease-in;
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
 }

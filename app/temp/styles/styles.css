@@ -463,6 +463,7 @@ template {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  text-align: center;
 }
 
 img {
@@ -484,6 +485,11 @@ a:hover {
   padding: 5px;
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .site-landing {
@@ -517,7 +523,6 @@ a:hover {
 
 .site-landing__content {
   color: #d59541;
-  text-align: center;
   font-size: 10rem;/* centers "L"*/
   position: absolute;
   top: 50%;
@@ -599,8 +604,8 @@ a:hover {
   background-color: white;
   width: 5rem;
   height: 10rem;
-  top: 15px;
-  left: 10px;
+  top: 330px;
+  left: 50px;
 }
 
 .primary-nav li {
@@ -615,6 +620,7 @@ a:hover {
   position: relative;
   margin-top: 50rem;
   height: 50rem;
+  width: 100vh;
 
 }
 
